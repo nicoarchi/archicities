@@ -28,3 +28,7 @@
 .volverButton:hover {
   color: #18181f;
 }
+
+.addTopPadding {
+  margin-top: 20px;
+}

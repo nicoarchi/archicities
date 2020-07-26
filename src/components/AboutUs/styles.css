@@ -1,0 +1,27 @@
+.aboutBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+
+.aboutIcon {
+  text-align: center;
+  font-size: 50px;
+  color: #565673;
+}
+
+.aboutText {
+  text-align: center;
+  color: #565673;
+}
+
+.investigacion {
+  width: 30%;
+}
+
+.proyectos {
+  width: 30%;
+}
+.consultoria {
+  width: 30%;
+}

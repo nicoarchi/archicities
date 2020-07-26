@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.about {
+  width: 70%;
+  background: #fff;
+}
+
+.sidebar {
+  width: 25%;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .about {
+    min-width: 100%;
+  }
+}
+.sidebarTexto {
+  padding: 20px 40px;
+  color: black;
+}
+.sidebarTexto a {
+  text-decoration: none;
+  color: black;
+}
+.negrita {
+  font-weight: 700;
+  font-size: 1.1em;
+}

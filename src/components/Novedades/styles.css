@@ -1,0 +1,7 @@
+.formHide {
+  display: none;
+}
+
+.btnEnviar:hover {
+  opacity: 0.7;
+}

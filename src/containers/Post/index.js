@@ -31,7 +31,7 @@ const Post = (props) => {
     <div className="container">
       <div className="posts">
         <Card>
-          <div className="titulo">{post.postTitle}</div>
+          <div className="titulo addTopPadding">{post.postTitle}</div>
           <div className="fecha">{post.postedOn}</div>
 
           <div className="postImageContainer">

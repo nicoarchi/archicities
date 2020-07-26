@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import emailjs from "emailjs-com";
 
-const ContactForm = (props) => {
+const Novedades = (props) => {
   function sendEmail(e) {
     e.preventDefault();
 
@@ -25,10 +25,7 @@ const ContactForm = (props) => {
   }
 
   return (
-    <div className="formContainer">
-      <div className="formTitle">
-        Envianos tu consulta y te responderemos ASAP!
-      </div>
+    <div className="">
       <form onSubmit={sendEmail}>
         <div className="form-group">
           <label>Tu nombre: </label>
@@ -38,7 +35,6 @@ const ContactForm = (props) => {
             placeholder="Nombre Apellido"
             name="name"
             required
-            autoFocus
           />
         </div>
         <div className="form-group">
@@ -52,23 +48,21 @@ const ContactForm = (props) => {
           />
         </div>
         <div className="form-group">
-          <label>Asunto: </label>
+          <label className="formHide">Asunto: </label>
           <input
             type="text"
-            className="formInput"
+            className="formInput formHide"
             placeholder="Asunto del mensaje"
             name="subject"
-            required
           />
         </div>
         <div className="form-group">
-          <label>Mensaje: </label>
+          <label className="formHide">Mensaje: </label>
           <textarea
             type="text"
-            className="formTextarea"
+            className="formTextarea formHide"
             placeholder="Tu mensaje"
             name="message"
-            required
           />
         </div>
         <div>
@@ -79,4 +73,4 @@ const ContactForm = (props) => {
   );
 };
 
-export default ContactForm;
+export default Novedades;

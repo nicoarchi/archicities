@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Card from "../UI/Card";
+import Novedades from "../Novedades";
 
 const Sidebar = (props) => {
   return (
@@ -18,7 +19,9 @@ const Sidebar = (props) => {
       </Card>
       <Card style={{ marginBottom: "20px" }}>
         <div className="sidebarTitulo"> Recibe las novedades</div>
-        <div className="sidebarTexto">Email</div>
+        <div className="sidebarTexto">
+          <Novedades />
+        </div>
       </Card>
     </div>
   );

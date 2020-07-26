@@ -4,4 +4,4 @@ Hub especializado en el estudio de la ciudad y creación de contenidos sobre urb
 
 ### Find us in our website
 
-[http://](http://) to view it in the browser.
+[http://](http://)
