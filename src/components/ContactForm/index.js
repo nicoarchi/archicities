@@ -38,7 +38,6 @@ const ContactForm = (props) => {
             placeholder="Nombre Apellido"
             name="name"
             required
-            autoFocus
           />
         </div>
         <div className="form-group">
