@@ -16,6 +16,17 @@
   letter-spacing: 0.6px;
 }
 
+.sidebarIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.redesIconos {
+  margin: 0px 20px;
+  font-size: 30px;
+  color: #565673;
+}
+
 @media (max-width: 768px) {
   .sidebar {
     display: none;

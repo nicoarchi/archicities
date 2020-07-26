@@ -13,7 +13,8 @@ const About = (props) => {
           <span className="negrita">archicities </span> es un HUB especializado
           en el estudio de la ciudad y creación de contenidos sobre urbanismo,
           sostenibilidad y ciudades inteligentes.
-          <br /> Para más información <Link to="/contact">contactenos</Link>.
+          <br /> <br /> Para más información{" "}
+          <Link to="/contact">contactenos</Link>.
         </div>
       </div>
       <div className="sidebar">

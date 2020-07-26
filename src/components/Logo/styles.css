@@ -1,13 +1,6 @@
 .logo {
-  height: 150px;
   width: 100%;
+  height: auto;
   text-align: center;
   background: #fff;
-}
-
-.logo a {
-  font-size: 50px;
-  letter-spacing: 7px;
-  text-decoration: none;
-  color: gray;
 }
