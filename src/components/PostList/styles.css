@@ -1,0 +1,54 @@
+.postContainer {
+  background: #e9eaed;
+}
+
+.postContainer:hover {
+  opacity: 0.5;
+}
+
+.titulo {
+  margin: 0;
+  text-align: center;
+  font-size: 24px;
+
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+
+.tituloPort {
+  padding-top: -10px;
+}
+
+.fecha {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  padding-bottom: 5px;
+}
+
+.cuerpo {
+  padding: 10px 30px;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: lighter;
+  padding-bottom: 20px;
+  white-space: pre-wrap;
+}
+
+.postImageContainer {
+  max-width: 100%;
+}
+.postImage {
+  width: 100%;
+}
+
+.fechaPort {
+  padding-bottom: -10px;
+  margin-bottom: -10px;
+}
+
+.postMaster {
+  background: #e9eaed;
+}

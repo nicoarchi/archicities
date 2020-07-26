@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.posts {
+  width: 70%;
+  background: #fff;
+}
+
+.sidebar {
+  width: 25%;
+}
+.cambiardePost {
+  display: flex;
+  justify-content: center;
+}
+.volverButton {
+  text-align: center;
+  text-decoration: none;
+  color: #565673;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  margin: 10px 10px;
+}
+
+.volverButton:hover {
+  color: #18181f;
+}

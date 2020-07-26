@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.posts {
+  width: 70%;
+  background: #fff;
+}
+
+.sidebar {
+  width: 25%;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .posts {
+    min-width: 100%;
+  }
+}

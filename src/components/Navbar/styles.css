@@ -1,0 +1,46 @@
+.navbarr {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.navbarMenu a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #565673;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+}
+
+.navbarMenu a:hover {
+  color: #18181f;
+}
+
+.searchBar form {
+  display: flex;
+}
+
+.searchInput {
+  background: #e9eaed;
+  border: 0;
+  width: 0;
+  transition: width 0.3s ease-in;
+}
+
+.searchInput.active {
+  width: 150px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.searchIcon {
+  height: 25px;
+  width: 25px;
+  margin-left: 4px;
+  cursor: pointer;
+}
